@@ -1,0 +1,15 @@
+﻿@QuestHarjoitus_HostAddress = https://localhost:7053
+
+
+POST {{QuestHarjoitus_HostAddress}}/quest
+Content-Type: application/json
+{
+    "name": "Tuhoa rotat",
+    "description":"Tapa 3 rottaa ja tuo nahat minulle.",
+    "reward":50
+}
+###
+
+GET {{QuestHarjoitus_HostAddress}}/quest/1
+
+###
